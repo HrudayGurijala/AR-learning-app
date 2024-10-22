@@ -1,0 +1,11 @@
+Model Information:
+* title:	Van Low Poly - Rigged
+* source:	https://sketchfab.com/3d-models/van-low-poly-rigged-8b650b7166f24758b815b3bab5277ecf
+* author:	AFCM (https://sketchfab.com/afcm.contact)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Van Low Poly - Rigged" (https://sketchfab.com/3d-models/van-low-poly-rigged-8b650b7166f24758b815b3bab5277ecf) by AFCM (https://sketchfab.com/afcm.contact) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

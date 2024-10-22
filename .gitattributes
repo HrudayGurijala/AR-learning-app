@@ -1,0 +1,8 @@
+# Ensure text files are converted to LF
+* text=auto
+
+# Ensure license.txt files always use LF
+*.txt text eol=lf
+
+# Specify GLTF files to use LF
+*.gltf text eol=lf

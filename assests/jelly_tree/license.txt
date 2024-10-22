@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dancing Jelly Tree
+* source:	https://sketchfab.com/3d-models/dancing-jelly-tree-50802875ac46435087d1adabcfd5eae0
+* author:	squiggs (https://sketchfab.com/5qui99l3)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dancing Jelly Tree" (https://sketchfab.com/3d-models/dancing-jelly-tree-50802875ac46435087d1adabcfd5eae0) by squiggs (https://sketchfab.com/5qui99l3) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

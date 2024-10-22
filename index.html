@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+
+<a-scene arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3">
+
+  <!-- ant -->
+  <a-assets>
+    <a-asset-item id="ant" src="./assests/ant/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-entity gltf-model="#ant" position="0 3 0" rotation="0 90 0" scale="0.00001 0.00001 0.00001"></a-entity>
+
+
+  <a-marker type="barcode" value="0">
+    <a-gltf-model src="#ant" animation-mixer ></a-gltf-model>
+  </a-marker>
+
+  <!-- bee -->
+  <a-assets>
+    <a-asset-item id="bee" src="./assests/bee_minecraft/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="1">
+    <a-gltf-model src="#bee" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- cat -->
+  <a-assets>
+    <a-asset-item id="cat" src="./assests/cat/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="2">
+    <a-gltf-model src="#cat" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  
+  <!-- dog -->
+  <a-assets>
+    <a-asset-item id="dog" src="./assests/dog/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="3">
+    <a-gltf-model src="#dog" animation-mixer></a-gltf-model>
+  </a-marker>
+
+
+  <!-- elephant -->
+  <a-assets>
+    <a-asset-item id="elephant" src="./assests/elephant/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="4">
+    <a-gltf-model src="#elephant" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- frog -->
+  <a-assets>
+    <a-asset-item id="frog" src="./assests/frog_jump/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="5">
+    <a-gltf-model src="#frog" animation-mixer></a-gltf-model>
+  </a-marker>
+  <!-- goat -->
+  <a-assets>
+    <a-asset-item id="goat" src="./assests/goat/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="6">
+    <a-gltf-model src="goat" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- horse -->
+  <a-assets>
+    <a-asset-item id="horse" src="./assests/horse_trot/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="7">
+    <a-gltf-model src="#horse" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- ice -->
+  <a-assets>
+    <a-asset-item id="ice" src="./assests/ice/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="8">
+    <a-gltf-model src="#ice" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- jelly -->
+  <a-assets>
+    <a-asset-item id="jelly" src="./assests/jelly_tree/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="9">
+    <a-gltf-model src="#jelly" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- kite -->
+  <a-assets>
+    <a-asset-item id="kite" src="./assests/kite__kite_festival/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="10">
+    <a-gltf-model src="#kite" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- lion -->
+  <a-assets>
+    <a-asset-item id="lion" src="./assests/lion/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="11">
+    <a-gltf-model src="#lion" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- monkey -->
+  <a-assets>
+    <a-asset-item id="monkey" src="./assests/monkey/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="12">
+    <a-gltf-model src="#monkey" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- net -->
+  <a-assets>
+    <a-asset-item id="net" src="./assests/net/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="13">
+    <a-gltf-model src="#net" animation-mixer></a-gltf-model>
+  </a-marker>
+
+
+  <!-- owl -->
+  <a-assets>
+    <a-asset-item id="owl" src="./assests/owl/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="14">
+    <a-gltf-model src="#owl" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- parrot -->
+  <a-assets>
+    <a-asset-item id="parrot" src="./assests/parrot/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="15">
+    <a-gltf-model src="#parrot" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- question -->
+  <a-assets>
+    <a-asset-item id="question" src="./assests/question_mark/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="16">
+    <a-gltf-model src="#question" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- rabbit -->
+  <a-assets>
+    <a-asset-item id="rabbit" src="./assests/rabbit_rigged/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="17">
+    <a-gltf-model src="#rabbit" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- shark -->
+  <a-assets>
+    <a-asset-item id="shark" src="./assests/shark/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="18">
+    <a-gltf-model src="#shark" animation-mixer></a-gltf-model>
+  </a-marker>
+  
+  <!-- tiger -->
+  <a-assets>
+    <a-asset-item id="tiger" src="./assests/tiger/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="19">
+    <a-gltf-model src="#tiger" animation-mixer></a-gltf-model>
+  </a-marker>
+
+
+
+  <!-- umbrella -->
+  <a-assets>
+    <a-asset-item id="umbrella" src="./assests/umbrella/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="20">
+    <a-gltf-model src="#umbrella" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- van -->
+  <a-assets>
+    <a-asset-item id="van" src="./assests/van_low_poly_-_rigged/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="21">
+    <a-gltf-model src="#van" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- whale -->
+  <a-assets>
+    <a-asset-item id="whale" src="./assests/whale/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="22">
+    <a-gltf-model src="#whale" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- xmas -->
+  <a-assets>
+    <a-asset-item id="xmas" src="./assests/x/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="23">
+    <a-gltf-model src="#xmas" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <!-- yacht -->
+  <a-assets>
+    <a-asset-item id="yacht" src="./assests/yacht/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="24">
+    <a-gltf-model src="#yacht" animation-mixer></a-gltf-model>
+  </a-marker>~
+
+  <!-- zebra -->
+  <a-assets>
+    <a-asset-item id="zebra" src="./assests/zebramotions/scene.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-marker type="barcode" value="25">
+    <a-gltf-model src="#zebra" animation-mixer></a-gltf-model>
+  </a-marker>
+
+  <a-entity camera></a-entity>
+</a-scene>
+
+</body>
+</html>
